@@ -1,0 +1,76 @@
+"'landing page' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(209, 232, 178, 1)
+
+    Image2 As image:
+        Height: =413
+        Image: =pic
+        ImagePosition: =ImagePosition.Fill
+        Transparency: |
+            =0
+        Width: =683
+        X: =84
+        Y: =207
+        ZIndex: =1
+
+    "'app name' As label":
+        FontWeight: =FontWeight.Semibold
+        Height: =42
+        Size: =25
+        Text: ="Mazik CSR App"
+        Width: =302
+        X: =12
+        Y: =12
+        ZIndex: =2
+
+    "'sign up' As label":
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =20
+        Text: ="Sign Up"
+        Width: =126
+        X: =1215
+        Y: =12
+        ZIndex: =3
+
+    login As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        OnSelect: =Navigate('signin page', ScreenTransition.Fade)
+        Size: =20
+        Text: ="Login"
+        Width: =84
+        X: =1103
+        Y: =12
+        ZIndex: =4
+
+    intro As label:
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =268
+        Size: =18
+        Text: ="""You can make a real difference to individuals and communities overseas through a donation to Mission. Every amount will help create change for women, men and children who are living in the margins, suffering the indignity of poverty and injustice."""
+        Width: =489
+        X: =852
+        Y: =246
+        ZIndex: =5
+
+    Button1 As button:
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =56
+        Text: ="Donate Now"
+        Width: =188
+        X: =1015
+        Y: =542
+        ZIndex: =6
+
+    activities As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =20
+        Text: ="Activities"
+        Width: =134
+        X: =939
+        Y: =12
+        ZIndex: =7
+
